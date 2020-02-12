@@ -9,7 +9,7 @@ class School
 
     def add_student(name, grade) #add_student method
         if @roster.has_key?(grade) #if there is a grade
-            @roster[grade] << name #shovel in the roster right af
+            @roster[grade] << name #shovel in the roster
         else
             @roster[grade] = [name] #else make grade
         end
